@@ -1,0 +1,34 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(225, 160, 241, 0.342);
+}
+
+.degrees{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+.btnRed{
+  background-color: rgb(167, 16, 16);
+  width: 30px;
+  color: white;
+  border-radius: 10px;
+  align-self: flex-end;
+  margin: 5px;
+}
+
+.btnRed:hover{
+  background-color: grey;
+}
